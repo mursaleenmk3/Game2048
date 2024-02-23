@@ -1,34 +1,62 @@
+Sure, here's a simple README template for your Angular-based 2048 game:
+
+---
+
 # 2048 Game
 
-Welcome to the 2048 game! This is a simple implementation of the popular 2048 puzzle game using AngularJS.
+This is a simple implementation of the popular 2048 game using Angular framework.
+
+## Getting Started
+
+To play the game, simply follow these steps:
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/2048-game.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd 2048-game
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the development server:
+
+```bash
+ng serve
+```
+
+5. Open your browser and navigate to `http://localhost:4200` to play the game.
 
 ## How to Play
 
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Use your mouse cursor to swipe in different directions (left, right, up, down) to move the tiles.
-4. Tiles with the same number will merge into one when they touch.
-5. Your objective is to reach the 2048 tile by merging tiles strategically.
+- Use the arrow keys (Up, Down, Left, Right) to move the tiles in the corresponding direction.
+- Tiles with the same number will merge into one when they touch.
+- The objective is to reach the 2048 tile by merging tiles strategically. Once you create a tile with the number 2048, you win the game.
+- The game ends when there are no more moves possible.
 
-## Features
+## Technologies Used
 
-- Simple and intuitive interface.
-- Responsive design that works on desktop and mobile browsers.
-- Keeps track of the score as you play.
-- Automatically generates new tiles with each move.
-- Supports swipe gestures for easy tile movement.
-
-## Development
-
-The game is built using AngularJS for the frontend logic. You can find the main game logic in the `app.js` file. The CSS styles are defined in the `styles.css` file.
-
-To customize or extend the game, you can modify the JavaScript and CSS files as needed. You can also add new features or refactor the code to improve performance or add new functionality.
-
-## License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
+- Angular
+- HTML/CSS
+- TypeScript
 
 ## Credits
 
-The original 2048 game was created by [Gabriele Cirulli](https://github.com/gabrielecirulli/2048). This project is inspired by his work and serves as a simplified version implemented using AngularJS.
+This game was created by Mursaleen. You can find the source code on [GitHub](https://github.com/your-username/2048-game).
 
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+---
+
+Feel free to customize the README with additional information or sections as needed. Good luck with your game!
