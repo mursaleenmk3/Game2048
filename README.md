@@ -51,7 +51,7 @@ ng serve
 
 ## Credits
 
-This game was created by Mursaleen. You can find the source code on [GitHub](https://github.com/your-username/2048-game).
+This game was created by Mursaleen. You can find the source code on https://github.com/mursaleenmk3/Game2048.git
 
 ## Contributing
 
