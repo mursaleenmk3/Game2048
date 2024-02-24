@@ -19,7 +19,7 @@ git clone https://github.com/your-username/2048-game.git
 2. Navigate to the project directory:
 
 ```bash
-cd 2048-game
+cd Game2048
 ```
 
 3. Install dependencies:
